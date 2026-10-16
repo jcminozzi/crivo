@@ -1,0 +1,211 @@
+{
+  "total": 12,
+  "exact_accuracy": 0.8333333333333334,
+  "category_accuracy": 0.8333333333333334,
+  "format_valid_rate": 1.0,
+  "macro_f1": 0.8517857142857143,
+  "confusion_matrix": {
+    "compras": {
+      "compras": 3,
+      "financeiro": 1,
+      "comercial": 0,
+      "outros": 0,
+      "invalid": 0
+    },
+    "financeiro": {
+      "compras": 0,
+      "financeiro": 3,
+      "comercial": 1,
+      "outros": 0,
+      "invalid": 0
+    },
+    "comercial": {
+      "compras": 0,
+      "financeiro": 0,
+      "comercial": 2,
+      "outros": 0,
+      "invalid": 0
+    },
+    "outros": {
+      "compras": 0,
+      "financeiro": 0,
+      "comercial": 0,
+      "outros": 2,
+      "invalid": 0
+    }
+  },
+  "results": [
+    {
+      "id": "C01",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C02",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C03",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "comercial",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "comercial",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C04",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "outros",
+        "needs_review": true
+      },
+      "prediction": {
+        "category": "outros",
+        "needs_review": true
+      },
+      "error": null
+    },
+    {
+      "id": "C05",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C06",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C07",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "comercial",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "comercial",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C08",
+      "passed": false,
+      "format_valid": true,
+      "expected": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C09",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C10",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "outros",
+        "needs_review": true
+      },
+      "prediction": {
+        "category": "outros",
+        "needs_review": true
+      },
+      "error": null
+    },
+    {
+      "id": "C11",
+      "passed": false,
+      "format_valid": true,
+      "expected": {
+        "category": "financeiro",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "comercial",
+        "needs_review": false
+      },
+      "error": null
+    },
+    {
+      "id": "C12",
+      "passed": true,
+      "format_valid": true,
+      "expected": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "prediction": {
+        "category": "compras",
+        "needs_review": false
+      },
+      "error": null
+    }
+  ],
+  "mode": "replay",
+  "prompt": null,
+  "min_accuracy": 0.85,
+  "gate_passed": false
+}

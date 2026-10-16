@@ -1,0 +1,12 @@
+{"id": "C01", "prediction": {"category": "compras", "needs_review": false}}
+{"id": "C02", "prediction": {"category": "financeiro", "needs_review": false}}
+{"id": "C03", "prediction": {"category": "comercial", "needs_review": false}}
+{"id": "C04", "prediction": {"category": "outros", "needs_review": true}}
+{"id": "C05", "prediction": {"category": "compras", "needs_review": false}}
+{"id": "C06", "prediction": {"category": "financeiro", "needs_review": false}}
+{"id": "C07", "prediction": {"category": "comercial", "needs_review": false}}
+{"id": "C08", "prediction": {"category": "financeiro", "needs_review": false}}
+{"id": "C09", "prediction": {"category": "financeiro", "needs_review": false}}
+{"id": "C10", "prediction": {"category": "outros", "needs_review": true}}
+{"id": "C11", "prediction": {"category": "comercial", "needs_review": false}}
+{"id": "C12", "prediction": {"category": "compras", "needs_review": false}}
